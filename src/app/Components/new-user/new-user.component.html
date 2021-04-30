@@ -1,0 +1,42 @@
+<div class="d-flex justify-content-center mt-3">
+    <form [formGroup]="ourValidation" class=" alert alert-primary bg-secondary w-50" (ngSubmit)="Add()">
+      <div class="mb-3 col-12">
+        <div *ngIf="errors.length">
+            <ul class="alert alert-danger">
+                <li *ngFor="let error of errors" >{{ error }}</li>
+            </ul>
+          </div>
+      </div>
+      <div class="form-group row">
+        <label for="id" class="col-4 text-light">Id</label>
+        <input type="number" formControlName="id" #id class="form-control col-8" id="id" placeholder="Please enter your id">
+      </div>
+      <div class="form-group row">
+        <label for="name" class="col-4 text-light">Name</label>
+        <input type="text" formControlName="name" #name class="form-control col-8" id="name" placeholder="Please enter your name">
+      </div>
+      <div class="form-group row">
+        <label for="age" class="col-4 text-light">Age</label>
+        <input type="number" formControlName="age" #age class="form-control col-8" id="age" placeholder="Please enter your age">
+      </div>
+      <div class="form-group row">
+        <label for="phone" class="col-4 text-light">Phone</label>
+        <input type="number" formControlName="phone" #phone class="form-control col-8" id="phone" placeholder="Please enter your phone">
+      </div>
+      <div class="form-group row">
+        <label for="email" class="col-4 text-light">Email</label>
+        <input type="email" formControlName="email" #email class="form-control col-8" id="email" placeholder="Please enter your email">
+      </div>
+      <div class="form-group row">
+        <label for="city" class="col-4 text-light">City</label>
+        <input type="text" formControlName="city" #city class="form-control col-8" id="city" placeholder="Please enter your city">
+      </div>
+      <div class="form-group row">
+        <label for="street" class="col-4 text-light">Street</label>
+        <input type="text" formControlName="street" #street class="form-control col-8" id="street" placeholder="Please enter your street">
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-success">Add</button>
+      </div>
+    </form>
+  </div>

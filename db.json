@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "shimaa",
+      "age": 20,
+      "email": "shimaa@gmail.com",
+      "phone": "0120012138",
+      "address": {
+        "city": "lorem ibsum",
+        "street": "lorem ibsum"
+      }
+    },
+    {
+      "id": 2,
+      "name": "mona",
+      "age": 25,
+      "email": "mona@gmail.com",
+      "phone": "01060116533",
+      "address": {
+        "city": "lorem ibsum",
+        "street": "lorem ibsum"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Noha",
+      "age": 27,
+      "email": "Noha@gmail.com",
+      "phone": "01200131718",
+      "address": {
+        "city": "lorem ibsum",
+        "street": "lorem ibsum"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Ashraket",
+      "age": 29,
+      "email": "Ashraket@gmail.com",
+      "phone": "01060116522",
+      "address": {
+        "city": "lorem ibsum",
+        "street": "lorem ibsum"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Fatma",
+      "age": 28,
+      "email": "Fatma@gmail.com",
+      "phone": "01211171619",
+      "address": {
+        "city": "lorem ibsum",
+        "street": "lorem ibsum"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Azza",
+      "age": 15,
+      "email": "azza@gmail.com",
+      "phone": "012886614",
+      "address": {
+        "city": "lorem ibsum",
+        "street": "lorem ibsum"
+      }
+    }
+  ]
+}
